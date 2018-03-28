@@ -1,0 +1,41 @@
+.container-box{
+    width: 100%;
+    text-align: center;
+    -webkit-: center;
+    margin-top: 6%!important;
+}
+.paddRight{
+    padding-right: 5%!important;
+}
+.favourites{
+    
+    margin-left: 70%!important;
+    margin-top: -5%; 
+}
+.rght{
+    float:right;
+}
+
+.favBack{
+    margin-right: 5%;
+    margin-top: 1%;
+    float:right;
+}
+
+.movieCard{
+    width: 50%!important;
+    height: 90%!important;
+    margin-left: 25%!important;
+    margin-top: 5%;
+
+}
+.favicon{
+    height: 10%!important;
+    width: 10%!important;
+    float: right;
+    padding-bottom: 2%;
+}
+.cardMedia{
+    width:50%;
+    height:70%
+}
