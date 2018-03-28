@@ -1,7 +1,7 @@
 {
-  "name": "cb-boilerplate",
+  "name": "MERN",
   "version": "1.0.0",
-  "description": "React Todo App",
+  "description": "imdb using MERN",
   "scripts": {
     "start": "node server/bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
