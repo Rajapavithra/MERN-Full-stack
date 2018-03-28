@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import ReactDom from 'react-dom';
-import {Glyphicon, Modal} from 'react-bootstrap';
+import { Modal} from 'react-bootstrap';
 import {TextField,RaisedButton,Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui';
 import superagent from 'superagent';
 
