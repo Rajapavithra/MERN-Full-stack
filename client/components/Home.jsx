@@ -9,9 +9,7 @@ import SearchBar from './SearchBar.jsx';
 export  default class Home extends Component{
 	constructor(props){
         super(props)
-        this.state={
-			movies:[]
-		}
+        
     }
    
 	
