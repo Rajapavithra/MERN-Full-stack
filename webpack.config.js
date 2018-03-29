@@ -23,21 +23,31 @@ const config = {
    },
  devtool: 'source-map',
     module: {
-        loaders: [
+			
+		
+		 rules: [
             {
-                test: /\.(jsx|js)$/,
-                loader: ['react-hot-loader', 'babel-loader'],
-                exclude: [/node_modules/]
-            },
-            {
+                test: /\.jsx?$/,
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['env', 'react']
+                    }
+                }
+            }, 
+			{
               test: /\.css$/,
               loader: 'style-loader!css-loader'
             },
-            {
+			{
              test: /\.(jpe?g|gif|png)$/,
              loader: 'file-loader?emitFile=false&name=../assets/images/[name].[ext]'
             }
         ]
+		
+		
+	
     }
 }
 
