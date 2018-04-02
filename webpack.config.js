@@ -15,13 +15,7 @@ const config = {
     plugins: [
         new webpack.HotModuleReplacementPlugin()
     ],
-    node: {
-         child_process: 'empty',
-         fs: "empty",
-         net: "empty",
-         tls: "empty"
-   },
- devtool: 'source-map',
+    
     module: {
 			
 		
